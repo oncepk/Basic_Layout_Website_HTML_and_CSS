@@ -1,0 +1,47 @@
+.container {
+  /* Styles for container */
+  max-width: 1200px; /* Maximum width of container */
+  margin: 0 auto; /* Center container horizontally on page */
+}
+
+.header {
+  /* Styles for header section */
+  width: 100%; /* Full width */
+  height: 100px; /* Height of header section */
+  background-color: #333; /* Background color */
+  color: #fff; /* Text color */
+  text-align: center; /* Text alignment */
+  padding-top: 20px; /* Padding on top of header */
+}
+
+.main {
+  /* Styles for main content area */
+  display: flex; /* Enable flexbox layout */
+  flex-wrap: wrap; /* Allow elements to wrap onto next line */
+}
+
+.content {
+  /* Styles for left column content */
+  flex: 1; /* Take up all available space */
+  min-height: 400px; /* Minimum height of content area */
+  background-color: #f2f2f2; /* Background color */
+  padding: 20px; /* Padding */
+}
+
+.sidebar {
+  /* Styles for right column content */
+  flex: 0 0 30%; /* Width is 30% and doesn't grow or shrink */
+  min-height: 400px; /* Minimum height of sidebar area */
+  background-color: #ccc; /* Background color */
+  padding: 20px; /* Padding */
+}
+
+.footer {
+  /* Styles for footer section */
+  width: 100%; /* Full width */
+  height: 50px; /* Height of footer section */
+  background-color: #333; /* Background color */
+  color: #fff; /* Text color */
+  text-align: center; /* Text alignment */
+  padding-top: 20px; /* Padding on top of footer */
+}
